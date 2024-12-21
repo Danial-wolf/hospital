@@ -19,6 +19,7 @@ void Nurse::displayNurseInformation()
     cout<<"Age of Nurse  is "<<age<<endl;
     cout<<"Gender of Nurse is "<<gender<<endl;
     cout<<"Experiance of Nurse is "<<experiance<<endl;
+    cout<<"The id of Nurse is "<<nurseId<<endl;
 }
 
 int Nurse::totalNurse=0;

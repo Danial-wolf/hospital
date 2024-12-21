@@ -9,10 +9,11 @@ using namespace std;
 
 class Doctor : public Person
 {
-private:
+protected:
     string specialization;
     int experiance;
     static int totalDoctor;
+    int doctorId;
 public:
     Doctor(string name, int age, string gender, string specialization,int experiance);
     ~Doctor();
