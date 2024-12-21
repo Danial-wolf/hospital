@@ -4,6 +4,9 @@
 using namespace std;
 
 
+
+
+
 Doctor::Doctor(string name, int age, string gender, string specialization, int experiance): Person(name,age,gender),specialization(specialization),experiance(experiance) 
 {
     totalDoctor++;
