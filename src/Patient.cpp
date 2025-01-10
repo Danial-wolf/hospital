@@ -8,7 +8,6 @@ Patient::Patient(string name, int age, string gender, string disease):Person(nam
     totalPatient++;
     this->patientId=totalPatient;
 }
-
 Patient::~Patient()
 {
 }
